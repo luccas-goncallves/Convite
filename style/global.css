@@ -22,7 +22,7 @@
   --text-heading: #F9F9F9;
 
   --font-family-leckerli: "Leckerli One", cursive;
-  --text-logo: 400 5rem var(--font-family);
+  --text-logo: 400 2.5rem var(--font-family-leckerli);
 
 
   --font-family-baloo: "Baloo 2", sans-serif;
@@ -31,9 +31,9 @@
 
 
   --font-family-open: "Open Sans", sans-serif;
-  --text-body-md: 600 1rem var(--font-family-open);
+  --text-body-md: 500 1rem var(--font-family-open);
   --text-body-sm: 600 .875rem var(--font-family-open);
   --text-body-xs: 600 .75rem var(--font-family-open);
-  background-color: black;
-  
 }
+
+

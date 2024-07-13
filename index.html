@@ -16,5 +16,42 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="app">
+    <aside>
+      <div class="section-aside">
+        <div class="title">
+          <img src="./assets/images/Logo.svg" alt="">
+          <p class="logo">Festivite</p>
+          <p class="text-body-md-aside">Crie um convite digital para o seu evento</p>
+
+        </div>
+      </div>
+    </aside>
+    <main>
+        <div class="invite">
+          <h1>Crie seu convite</h1>
+        </div>
+        <form>
+          <div class="information">
+            <img src="./assets/icons/calendar.svg" alt="">
+            <span>Sobre o evento</span>
+          </div>
+          <fieldset>
+            <div class="input-wrapper">
+              <label for="titulo">Título</label>
+              <input type="text" name="titulo" id="titulo" placeholder="Nome do evento">
+            </div>
+            <div class="input-wrapper">
+              <label for="date-start">Ínicio</label>
+              <input type="date" name="date-start" id="date-start">
+            </div>
+            <div class="input-wrapper">
+              <label for="date-end">Fim</label>
+              <input type="date" name="date-end" id="date-end">
+            </div>
+          </fieldset>
+        </form>
+    </main>
+  </div>
 </body>
 </html>

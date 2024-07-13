@@ -1,0 +1,62 @@
+form {
+  display: grid;
+  margin-top: 2.5rem;
+  flex-direction: column;
+
+  & > .information {
+    display: flex;
+    align-items: center;
+    & span {
+      margin-left: .75rem;
+      font: var(--text-heading-sm);
+      color: var(--text-heading);
+    }
+  }
+
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
+
+label {
+  font: var(--text-body-sm);
+  color: var(--text-body);
+  margin-bottom: 0.75rem;
+}
+
+input, textarea, select {
+  padding-block: .8125rem;
+  padding-left: 1rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base);
+  border-radius: .5rem;
+  font: var(--text-body-md);
+  color: var(--input-placeholder);
+}
+
+input:focus,
+select:focus,
+textarea:focus, 
+input[type="date"]:focus-within {
+  outline: .25rem solid var(--surface-secondary);
+  border-color: #59B2FF;
+  outline-offset: .1px;
+}
+
+fieldset {
+  display: grid;
+  border: none;
+  grid-template-rows: repeat(3, auto); /* Três linhas automáticas */
+  grid-template-columns: 1fr 1fr; /* Duas colunas */
+
+}
+
+input[type="date"] {
+  position: relative;
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+}

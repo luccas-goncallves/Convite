@@ -1,0 +1,52 @@
+.app {
+  display: grid;
+  grid-template-columns: 36% 64%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1.25rem;
+  column-gap: 1.25rem;
+}
+body {
+  background-color: var(--shape-background);
+  color: var(--text-body);
+}
+
+aside {
+  overflow: hidden;
+  display: grid;
+  & > .section-aside {
+    border-radius: .75rem;
+    background-image: url(../assets/images/Background.png);
+    padding-inline: 2rem;
+    padding-top: 2rem;
+
+    & .title {
+      display: grid;
+      gap: 1rem;
+
+      & img {
+        width: 2.8rem;
+        height: 3rem;
+
+      }
+    }
+  }
+}
+
+main {
+  background-color: var(--shape-body);
+  overflow: auto;
+  padding-block: 5rem;
+  padding-inline: 8.125rem;
+
+  & .invite{
+    display: flex;
+    flex-direction: column;
+    font: var(--text-heading-sm);
+    color: var(--text-heading);
+  }
+}
+
+
+
+

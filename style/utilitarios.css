@@ -1,0 +1,10 @@
+.logo {
+  font: var(--text-logo);
+  color: #FF598B;
+}
+
+.text-body-md-aside {
+  font: 300 1rem var(--font-family-open);
+  color: var(--text-heading);
+}
+
