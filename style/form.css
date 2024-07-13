@@ -49,9 +49,6 @@ input[type="date"]:focus-within {
 fieldset {
   display: grid;
   border: none;
-  grid-template-rows: repeat(3, auto); /* Três linhas automáticas */
-  grid-template-columns: 1fr 1fr; /* Duas colunas */
-
 }
 
 input[type="date"] {
@@ -60,3 +57,34 @@ input[type="date"] {
     opacity: 0;
   }
 }
+
+.input-button {
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+}
+
+.div-button {
+  display: flex;
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+  padding: .25rem;
+  background-color: var(--input-base);
+}
+
+.button-form {
+  all: unset;
+  display: flex;
+  align-items: center;
+  padding-inline: 1.125rem;
+  gap: .5rem;
+
+  font: var(--text-body-sm);
+  color: var(--text-heading);
+
+}
+ 
+.button-form:active {
+  background-color: black;
+}
+

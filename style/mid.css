@@ -1,0 +1,23 @@
+.mid {
+  & > span {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    gap: .75rem;
+    font: var(--text-heading-sm);
+    color: var(--text-heading);
+  }
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.input-colors {
+  display: flex; 
+  border: 1px solid white;
+  flex-grow: 1;
+}
+
